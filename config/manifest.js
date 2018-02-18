@@ -4,16 +4,16 @@ const envKey = key => {
   const configuration = {
     development: {
       host: 'localhost',
-      port: 80
+      port: 8080
     },
     uat: {
       host: 'localhost',
-      port: 80
+      port: 8080
     },
     // These should match environment variables on hosted server
     production: {
-      host: process.env.HOST,
-      port: process.env.PORT
+      host: 'localhost',
+      port: 8080
     }
   };
 
